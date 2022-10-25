@@ -1,0 +1,208 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  font-size: 2em;
+}
+
+
+div {
+  /* height: 300px; */
+  /* background-color: #7895B2; */
+}
+
+h1 {
+
+  margin-top: 50px;
+  font-family: 'Mitr', sans-serif;
+  font-size: 5.625rem;
+
+}
+
+.top-container {
+  position:relative;
+  background-color: #A8D1E7;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  background-color: #A8D1E7;
+
+}
+
+/*
+.bottom-container {
+  height:200px;
+  width: 200px;
+  background-color: red;
+} */
+
+.example-div {
+  height: 600px;
+  width: 600px;
+  background-color: pink;
+  border: solid;
+  border-width: 50px;
+  border-top: 0px;
+  padding: 50px;
+  /* overflow:hidden; */
+  margin: 10px;
+}
+
+.top-cloud {
+  position:absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position:absolute;
+  left:300px;
+  bottom:300px;
+}
+.profile {
+  /* padding-top:100px; */
+}
+.profile-image {
+  margin-top: 100px;
+  width:20%;
+
+}
+
+.skill-row {
+  width: 30%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.guitar-img{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.python-img{
+  width: 25%;
+  float:right;
+  margin-bottom: 30px;
+}
+.python-desc{
+  clear: right;
+}
+.adobe-img{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.skills {
+  font-family: 'Mitr', sans-serif;
+  font-weight:400;
+}
+
+.wrapper {
+    width: 40%;
+    min-width: 570px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 270px;
+}
+.container{
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: white;
+    border: 2px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: black;
+    font-weight: 500;
+}
+h2 {
+    font-family: 'Mitr', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+hr {
+  border-color: grey;
+  border-width: 5px;
+  border-style: dotted none none;
+  margin: auto;
+  height: 0px;
+  width: 70%;
+  padding: 10px;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+
+    border: 2px solid #0d96e0;
+
+    border-radius: 20px;
+
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+
+
+}
+#guitar-bar{
+    animation: guitar-fill 5s forwards;
+}
+@keyframes guitar-fill{
+    100%{
+        width: 70%;
+    }
+}
+#python-bar{
+    animation: python-fill 5s forwards;
+}
+@keyframes python-fill{
+    100%{
+        width: 65%;
+    }
+}
+#adobe-bar{
+    animation: adobe-fill 5s forwards;
+}
+@keyframes adobe-fill{
+    100%{
+        width: 60%;
+    }
+}
+#html-bar{
+    animation: html-fill 5s forwards;
+}
+@keyframes html-fill {
+    100%{
+        width: 40%;
+    }
+}
+#css-bar{
+    animation: css-fill 5s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 30%;
+    }
+}
